@@ -1,3 +1,37 @@
-.startpage-title {
+.startpage-title-container {
+    color: #f5f5f5;
+    text-shadow: 0 0 8px #000000;
+    z-index: 2;
 
+    .title {
+        font-size: 80px;
+        color: rgba(255, 255, 255, 0.83);
+        border-bottom: 5px solid rgba(255, 255, 255, 0.83);
+    }
+
+    .subtitle {
+        font-size: 60px;
+        color: rgba(255, 255, 255, 0.83);
+    }
+}
+
+.startpage-bg {
+    background-image: url('/static/bg.jpg');
+    background-position: center top;
+    background-size: cover;
+
+    .hero-head {
+        z-index: 2;
+    }
+}
+
+.startpage-bg:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(7, 7, 7, 0.2);
+    z-index: 1;
 }

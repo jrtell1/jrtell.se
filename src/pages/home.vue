@@ -12,7 +12,7 @@
                                 John-Robin Tell
                             </h1>
                             <h2 class="subtitle">
-                                <typed-text text="Fullstack Developer"/>
+                                <typed-text text="Fullstack Developer from Sweden"/>
                             </h2>
                         </div>
                     </div>

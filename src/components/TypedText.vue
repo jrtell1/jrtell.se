@@ -35,7 +35,7 @@
           clearInterval(interval);
           this.startBlinkUnderline();
         }
-      }.bind(this), 100);
+      }.bind(this), 80);
 
     },
 

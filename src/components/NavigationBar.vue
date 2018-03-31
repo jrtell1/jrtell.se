@@ -6,6 +6,7 @@
         <div class="navbar-menu">
             <div class="navbar-end">
                 <router-link :to="{ name: 'home' }" class="navbar-item">Home</router-link>
+                <router-link :to="{ name: 'projects' }" class="navbar-item">Projects</router-link>
             </div>
         </div>
     </nav>

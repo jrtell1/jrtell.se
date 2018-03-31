@@ -8,6 +8,11 @@ require('./assets/sass/main.scss');
 
 Vue.config.productionTip = false;
 
+// Components
+import TypedText from './components/TypedText'
+
+Vue.component('typed-text', TypedText);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

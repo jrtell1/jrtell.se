@@ -1,27 +1,28 @@
 .startpage-title-container {
     color: #f5f5f5;
-    text-shadow: 0 0 8px #000000;
+    text-shadow: 0 0 1px #000000;
     z-index: 2;
 
     .title {
-        font-size: 40px;
-        color: rgba(255, 255, 255, 0.65);
-        border-bottom: 5px solid rgba(255, 255, 255, 0.65);
+        font-size: 8vw;
+        color: #f5f5f5;
     }
 
     .subtitle {
         font-size: 34px;
-        color: rgba(255, 255, 255, 0.65);
+        color: #f5f5f5;
+    }
+
+    .icon {
+        font-size: 34px;
+        color: #f5f5f5;
     }
 }
 
 .startpage-bg {
     background-image: url('/static/bg.jpg');
     background-size: cover;
-
-    .hero-head {
-        z-index: 2;
-    }
+    background-attachment: fixed;
 }
 
 .startpage-bg:before {
@@ -33,4 +34,10 @@
     bottom: 0;
     background-color: rgba(7, 7, 7, 0.2);
     z-index: 1;
+}
+
+.startpage-arrow {
+    font-size: 60px;
+    color: #f5f5f5;
+    height: 100px;
 }

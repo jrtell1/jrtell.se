@@ -1,7 +1,7 @@
 //@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-@import "~bulma/sass/utilities/initial-variables";
-@import "~bulma/sass/utilities/functions";
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions';
 
 // Update blue
 $blue: #72d0eb;
@@ -15,7 +15,7 @@ $primary-invert: $pink-invert;
 // Use the existing orange as the danger color
 $danger: $orange;
 // Use the new serif family
-//$family-primary: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+//$family-primary: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 
 // Custom Colors
 $linkedin: #0077b5;
@@ -26,14 +26,15 @@ $github: #333;
 $github-invert: findColorInvert($github);
 
 // 5. Add new color variables to the color map.
-@import "~bulma/sass/utilities/derived-variables";
+@import '~bulma/sass/utilities/derived-variables';
 $addColors: (
-        "twitter":($twitter, $twitter-invert),
-        "linkedin": ($linkedin, $linkedin-invert),
-        "github": ($github, $github-invert)
+        'twitter':($twitter, $twitter-invert),
+        'linkedin': ($linkedin, $linkedin-invert),
+        'github': ($github, $github-invert)
 );
 $colors: map-merge($colors, $addColors);
 
 // Import the rest of Bulma
-@import "~bulma/bulma";
-@import "base";
+@import '~bulma/bulma';
+@import 'base';
+@import 'typed-text';

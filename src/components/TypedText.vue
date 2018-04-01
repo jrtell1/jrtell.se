@@ -24,7 +24,6 @@
       let i = 0;
       const interval = setInterval(function () {
         this.typedText += this.text[i];
-
         i++;
         if (i === this.text.length) {
           clearInterval(interval);

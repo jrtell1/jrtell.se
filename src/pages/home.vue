@@ -14,20 +14,22 @@
                             <h2 class="subtitle is-size-4-mobile">
                                 <typed-text text="Fullstack Developer from Sweden"/>
                             </h2>
-                            <p class="platforms">
-                                <a href="https://github.com/jrtell1" rel="noopener">
-                                    <i class="fab fa-github-square mr-1"></i> Github
-                                </a>
-                            </p>
+                            <router-link class="button is-dark is-medium is-inverted is-outlined" to="projects">Projects</router-link>
+                            <a class="button is-dark is-medium is-inverted is-outlined" href="https://github.com/jrtell1" target="_blank" rel="noopener noreferrer">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                                <span>Github</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hero-foot has-text-centered">
-                <div class="startpage-arrow">
-                    <i class="fas fa-angle-double-down"></i>
-                </div>
-            </div>
+            <!--<div class="hero-foot has-text-centered">-->
+                <!--<div class="startpage-arrow">-->
+                    <!--<i class="fas fa-angle-double-down"></i>-->
+                <!--</div>-->
+            <!--</div>-->
         </section>
     </div>
 </template>

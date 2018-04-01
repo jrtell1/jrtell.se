@@ -20,11 +20,6 @@
       }
     },
 
-    computed: {
-      blink() {
-      }
-    },
-
     mounted() {
       let i = 0;
       const interval = setInterval(function () {

@@ -32,8 +32,11 @@
       }
     },
 
-    mounted() {
-      this.setTitle('Projects');
+    created() {
+      this.setPageData({
+        title: 'Projects',
+        metaDescription: 'Projects I\'ve worked on lately'
+      });
     }
   }
 </script>

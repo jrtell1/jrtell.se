@@ -41,6 +41,10 @@
   export default {
     name: 'Home',
 
-    components: { NavigationBar, Projects }
+    components: { NavigationBar, Projects },
+
+    created() {
+      this.setMetaDescription('John-Robin Tell - Fullstack Developer from Sweden');
+    }
   }
 </script>

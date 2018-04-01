@@ -17,9 +17,18 @@ Vue.component('typed-text', TypedText);
 /** Vue global mixin */
 Vue.mixin({
   methods: {
+    setPageData(data) {
+      this.setTitle(data.title);
+      this.setMetaDescription(data.metaDescription);
+    },
+
     setTitle(title = null) {
       const baseTitle = 'JRTell';
       document.title = title ? baseTitle + ' | ' + title : 'JRTell';
+    },
+
+    setMetaDescription(description = null) {
+      document.querySelector('meta[name="description"]').setAttribute('content', description);
     }
   }
 });

@@ -8,10 +8,10 @@
                 <div class="container">
                     <div class="columns is-centered has-text-centered">
                         <div class="column is-narrow startpage-title-container">
-                            <h1 class="title">
+                            <h1 class="title is-size-1-mobile">
                                 John-Robin Tell
                             </h1>
-                            <h2 class="subtitle">
+                            <h2 class="subtitle is-size-4-mobile">
                                 <typed-text text="Fullstack Developer from Sweden"/>
                             </h2>
                             <p class="platforms">

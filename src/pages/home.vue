@@ -25,21 +25,17 @@
             </div>
         </section>
 
-        <section class="section">
-            <div class="container">
-                <h1 class="title">Projects</h1>
-                <h2 class="subtitle">asdffasdfasdfsad asdasf sadfasf asdfasfasd asdf</h2>
-            </div>
-        </section>
+        <projects/>
     </div>
 </template>
 
 <script>
   import NavigationBar from './../components/NavigationBar'
+  import Projects from './Projects'
 
   export default {
     name: 'Home',
 
-    components: { NavigationBar }
+    components: { NavigationBar, Projects }
   }
 </script>

@@ -14,6 +14,11 @@
                             <h2 class="subtitle">
                                 <typed-text text="Fullstack Developer from Sweden"/>
                             </h2>
+                            <p class="platforms">
+                                <a href="https://github.com/jrtell1" rel="noopener">
+                                    <i class="fab fa-github-square mr-1"></i> Github
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

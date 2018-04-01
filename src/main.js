@@ -13,6 +13,17 @@ import TypedText from './components/TypedText'
 
 Vue.component('typed-text', TypedText);
 
+
+/** Vue global mixin */
+Vue.mixin({
+  methods: {
+    setTitle(title = null) {
+      const baseTitle = 'JRTell';
+      document.title = title ? baseTitle + ' | ' + title : 'JRTell';
+    }
+  }
+});
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

@@ -30,6 +30,10 @@
           { title: 'AirsoftEvents' }
         ]
       }
+    },
+
+    mounted() {
+      this.setTitle('Projects');
     }
   }
 </script>

@@ -14,7 +14,7 @@
                             <h2 class="subtitle is-size-4-mobile">
                                 <typed-text text="Fullstack Developer from Sweden"/>
                             </h2>
-                            <router-link class="button is-dark is-medium is-inverted is-outlined" to="projects">Projects</router-link>
+                            <!--<router-link class="button is-dark is-medium is-inverted is-outlined" to="projects">Projects</router-link>-->
                             <a class="button is-dark is-medium is-inverted is-outlined" href="https://github.com/jrtell1" target="_blank" rel="noopener noreferrer">
                                 <span class="icon">
                                     <i class="fab fa-github"></i>

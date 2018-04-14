@@ -19,6 +19,10 @@
       {
         "text": "Sass",
         "class": "is-danger"
+      },
+      {
+        "text": "Bootstrap 4",
+        "class": "is-primary"
       }
     ]
   },
@@ -40,16 +44,16 @@
         "class": "is-info"
       },
       {
-        "text": "Sass",
-        "class": "is-danger"
-      },
-      {
         "text": "Socket.io",
         "class": "is-info"
       },
       {
         "text": "Node.js",
         "class": "is-success"
+      },
+      {
+        "text": "Bootstrap 3",
+        "class": "is-link"
       }
     ]
   }

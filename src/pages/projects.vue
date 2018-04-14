@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  import ProjectsList from '../projects';
+  import ProjectsList from '../../static/projects';
 
   export default {
     name: 'Projects',

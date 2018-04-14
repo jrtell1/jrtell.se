@@ -20,14 +20,14 @@
     }
 }
 
-.startpage-bg {
+.hero-bg {
     //background-image: url('/static/bg.jpg');
     background-image: url('https://res.cloudinary.com/jrtell/image/upload/q_auto,w_auto,f_auto,dpr_auto,c_scale/v1523698095/bg_yfkxkc');
     background-size: cover;
     background-attachment: fixed;
 }
 
-.startpage-bg:before {
+.startpage-hero:before {
     position: fixed;
     content: '';
     height: 100vh;

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-fullheight startpage-bg">
+        <section class="hero is-fullheight startpage-hero hero-bg">
             <!--<div v-if="false" class="hero-head">-->
                 <!--<navigation-bar/>-->
             <!--</div>-->

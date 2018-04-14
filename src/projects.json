@@ -1,0 +1,56 @@
+[
+  {
+    "name": "AirsoftEvents",
+    "image": "http://res.cloudinary.com/jrtell/image/upload/f_auto,q_auto,w_400,h_300,c_fill/v1523708462/20180310_164133_fwy5tv",
+    "description": "My current ongoing project, a platform to gather all of Sweden's airsoft events.",
+    "tags": [
+      {
+        "text": "VueJS",
+        "class": "is-success"
+      },
+      {
+        "text": "Laravel",
+        "class": "is-danger"
+      },
+      {
+        "text": "Webpack",
+        "class": "is-info"
+      },
+      {
+        "text": "Sass",
+        "class": "is-danger"
+      }
+    ]
+  },
+  {
+    "name": "Champions",
+    "image": "http://res.cloudinary.com/jrtell/image/upload/f_auto,q_auto,w_400,h_300,c_fill/v1523708462/champions_aw9eqk",
+    "description": "A browser RPG kind of game, with an emphasis on Player versus Player combat in real-time with the help of Websockets. It's my largest project and is currently on hold due to some smaller ones.",
+    "tags": [
+      {
+        "text": "AngularJs",
+        "class": "is-danger"
+      },
+      {
+        "text": "Laravel",
+        "class": "is-danger"
+      },
+      {
+        "text": "Webpack",
+        "class": "is-info"
+      },
+      {
+        "text": "Sass",
+        "class": "is-danger"
+      },
+      {
+        "text": "Socket.io",
+        "class": "is-info"
+      },
+      {
+        "text": "Node.js",
+        "class": "is-success"
+      }
+    ]
+  }
+]

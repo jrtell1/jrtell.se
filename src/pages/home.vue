@@ -1,9 +1,6 @@
 <template>
     <div>
         <section class="hero is-fullheight startpage-hero hero-bg">
-            <!--<div v-if="false" class="hero-head">-->
-                <!--<navigation-bar/>-->
-            <!--</div>-->
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-centered has-text-centered">

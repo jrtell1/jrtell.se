@@ -13,8 +13,24 @@
                 </div>
             </div>
         </section>
+
         <section class="section">
             <div class="container">
+                <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+                    <ul>
+                        <li>
+                            <router-link to="/">
+                                <span>Home</span>
+                            </router-link>
+                        </li>
+                        <li class="is-active">
+                            <router-link to="projects">
+                                <span>Projects</span>
+                            </router-link>
+                        </li>
+                    </ul>
+                </nav>
+
                 <div class="columns">
                     <div class="column is-4" v-for="project in projects">
                         <div class="card">
@@ -35,7 +51,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     </div>

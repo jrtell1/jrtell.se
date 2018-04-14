@@ -2,37 +2,47 @@
     <section class="section">
         <div class="container">
             <h1 class="title">Projects</h1>
-            <article class="media" v-for="project in projects">
-                <figure class="media-left">
-                    <p class="image is-64x64">
-                        <img src="https://bulma.io/images/placeholders/128x128.png">
-                    </p>
-                </figure>
-                <div class="media-content">
-                    <div class="content">
-                        <p>
-                            <strong>{{ project.title }}</strong>
-                        </p>
+
+            <div class="columns">
+                <div class="column is-4" v-for="project in projects">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img :src="project.image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">{{ project.name }}</p>
+                            <div class="content">
+                                {{ project.description }}
+                            </div>
+                            <div class="tags">
+                                <span class="tag" v-for="tag in project.tags" :class="tag.class">{{ tag.text }}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </article>
+            </div>
+
         </div>
     </section>
 </template>
 
 <script>
+  import ProjectsList from '../projects';
+
   export default {
     name: 'Projects',
 
     data() {
       return {
-        projects: [
-          { title: 'AirsoftEvents' }
-        ]
+        projects: []
       }
     },
 
     created() {
+      this.projects = ProjectsList;
+
       this.setPageData({
         title: 'Projects',
         metaDescription: 'Projects I\'ve worked on lately'

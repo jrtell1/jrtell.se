@@ -32,7 +32,7 @@
                 </nav>
 
                 <div class="columns">
-                    <div class="column is-half" v-for="project in projects">
+                    <div class="column is-4" v-for="project in projects">
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image">

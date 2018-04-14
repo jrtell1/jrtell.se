@@ -1,7 +1,7 @@
 [
   {
     "name": "AirsoftEvents",
-    "image": "https://res.cloudinary.com/jrtell/image/upload/f_auto,q_auto,w_500,h_300,c_fill/v1523708462/20180310_164133_fwy5tv",
+    "image": "https://res.cloudinary.com/jrtell/image/upload/f_auto,q_auto,w_600,h_300,c_fill/v1523708462/20180310_164133_fwy5tv",
     "description": "My current ongoing project, a platform to gather all of Sweden's airsoft events.",
     "tags": [
       {
@@ -28,7 +28,7 @@
   },
   {
     "name": "Champions",
-    "image": "https://res.cloudinary.com/jrtell/image/upload/f_auto,q_auto,w_500,h_300,c_fill/v1523708462/champions_aw9eqk",
+    "image": "https://res.cloudinary.com/jrtell/image/upload/f_auto,q_auto,w_600,h_300,c_fill/v1523708462/champions_aw9eqk",
     "description": "A browser RPG kind of game, with an emphasis on Player versus Player combat in real-time with the help of Websockets. It's my largest project and is currently on hold.",
     "tags": [
       {

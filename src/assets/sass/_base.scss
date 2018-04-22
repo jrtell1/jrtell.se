@@ -1,6 +1,6 @@
 .startpage-title-container {
     color: #f5f5f5;
-    text-shadow: 0 0 1px #000000;
+    text-shadow: 0 0 2px #000000;
     z-index: 2;
     position: relative;
 
@@ -21,14 +21,16 @@
 }
 
 .hero-bg {
-    //background-image: url('/static/bg.jpg');
-    background-image: url('https://res.cloudinary.com/jrtell/image/upload/q_auto,w_auto,f_auto,dpr_auto,c_scale/v1523698095/bg_yfkxkc');
+    background-image: url('https://res.cloudinary.com/jrtell/image/upload/fl_progressive,q_auto,w_auto,h_700,f_auto,dpr_auto,c_scale/v1524407733/PANO_20180422_142707_jsoqk0');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
-.startpage-hero:before {
-    position: fixed;
+.overlay {
+    position: absolute;
     content: '';
     height: 100vh;
     left: 0;

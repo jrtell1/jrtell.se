@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-fullheight startpage-hero hero-bg">
+        <section class="hero is-fullheight hero-bg">
             <div class="hero-body">
                 <div class="container">
                     <div class="columns is-centered has-text-centered">
@@ -21,6 +21,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="overlay"></div>
             </div>
             <!--<div class="hero-foot has-text-centered">-->
                 <!--<div class="startpage-arrow">-->
